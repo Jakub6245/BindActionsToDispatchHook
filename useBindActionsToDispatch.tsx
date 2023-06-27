@@ -21,15 +21,7 @@
  };
 
 
- export const boundArticleModalActions = bindActionsToDispatch(
-   store.dispatch,
-  {
-     close: (boolean: Boolean) => {
-       return {type: "asdasd", payload: boolean}
-    }
- );
+ 
 
 
-const actions = {
-  addList: (itemList: Item) => {type: 'ADD_TO_LIST', payload: itemList}
-};
+
